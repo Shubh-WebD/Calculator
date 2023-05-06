@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="calculator">
+      <input type="text" id="input" readonly value = "0" /><br />
+      <input type="text" id="output" readonly /><br />
+      <button onclick="addInput('(')">(</button>
+      <button onclick="addInput(')')">)</button>
+      <button id="ac" onclick="reset()">AC</button>
+      <button class="operator" onclick="addOperator('%')">%</button><br />
+      <button onclick="addInput('7')">7</button>
+      <button onclick="addInput('8')">8</button>
+      <button onclick="addInput('9')">9</button>
+      <button class="operator" onclick="addOperator('/')">/</button><br />
+      <button onclick="addInput('4')">4</button>
+      <button onclick="addInput('5')">5</zbutton>
+      <button onclick="addInput('6')">6</button>
+      <button class="operator" onclick="addOperator('*')">*</button><br />
+      <button onclick="addInput('1')">1</button>
+      <button onclick="addInput('2')">2</button>
+      <button onclick="addInput('3')">3</button>
+      <button class="operator" onclick="addOperator('-')">-</button><br />
+      <button onclick="addInput('0')">0</button>
+      <button onclick="addInput('.')">.</button>
+      <button class="operator" onclick="addOperator('+')">+</button>
+      <button class="operator" onclick="addOperator('**')">pow</button><br />
+      <button id="equal" onclick="calculate('=')">=</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+body {
+    background-color: #f9f9f9;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Set calculator container styles */
+  #calculator {
+    border-color: transparent;
+    background-color: #000000;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+  }
+
+  /* Set input display styles */
+  #input {
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    border-color: transparent;
+    font-size: 50px;
+    height: 80px;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    text-align: right;
+    width: 100%;
+  }
+
+  /* Set output display styles */
+  #output {
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    font-size: 24px;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    text-align: right;
+    width: 100%;
+  }
+
+  /* Set button styles */
+  button {
+    background-color: #313131;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    font-size: 30px;
+    height: 70px;
+    margin: 5px;
+    width: 70px;
+    border-radius: 50%;
+  }
+
+  /* Set AC button styles */
+  #ac {
+    background-color: #9F9F9F;
+    border-color: transparent;
+    color: #ffffff;
+  }
+
+  /* Set operator button styles */
+  .operator {
+    border-radius: 50%;
+    color: #f2f2f2;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    background-color: #ff9500;
+    font-size: 30px;
+    height: 70px;
+    margin: 5px;
+    width: 70px;
+  }
+
+  /* Set equal button styles */
+  #equal {
+    background-color: #ff9500;
+    border-color: #ff9500;
+    color: #ffffff;
+    height: 80px;
+    width: 80px;
+  }
+
+  /* Set active button styles */
+  button:active {
+    background-color: #d9d9d9;
+    box-shadow: none;
+  }
+
+  /* Set disabled button styles */
+  button:disabled {
+    background-color: #d9d9d9;
+    box-shadow: none;
+    color: #a9a9a9;
+  }
